@@ -1,4 +1,5 @@
-  <!DOCTYPE html>
+
+<!DOCTYPE html>
                 <html lang="en">
                 <?php
 include("../connection/connect.php");
@@ -8,7 +9,8 @@ session_start();
 
 
 
-if(isset($_POST['submit']))          
+if(isset($_POST['submit']))           
+{
 	
 		if(empty($_POST['d_name'])||empty($_POST['about'])||$_POST['price']==''||$_POST['res_name']=='')
 		{	
@@ -63,16 +65,23 @@ if(isset($_POST['submit']))
 	
 										}
 					}
-					
+					              
+	   
 	   
 	   }
 
+
+
+	
+	
 	
 
 }
 
+
 ?>
-   
+
+
                 <head>
                     <meta charset="utf-8">
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -124,7 +133,8 @@ if(isset($_POST['submit']))
                                 </div>
                             </nav>
                         </div>
-                        
+ 
+
                         <div class="left-sidebar">
 
                             <div class="scroll-sidebar">
@@ -153,7 +163,7 @@ if(isset($_POST['submit']))
                                             </ul>
                                         </li>
                                         <li> <a href="all_orders.php"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Orders</span></a></li>
-                           
+                                       
 
                                     </ul>
                                 </nav>
@@ -162,7 +172,12 @@ if(isset($_POST['submit']))
 
                         </div>
 
-                        
+                        <div class="page-wrapper">
+                            <div style="padding-top: 10px;">
+                                
+                            </div>
+
+
                             <div class="container-fluid">
 
 
@@ -222,6 +237,7 @@ if(isset($_POST['submit']))
 
 
                                                     <div class="row">
+
 
 
                                                         <div class="col-md-12">

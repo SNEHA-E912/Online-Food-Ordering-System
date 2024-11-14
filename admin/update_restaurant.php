@@ -1,5 +1,4 @@
-
-                <!DOCTYPE html>
+<!DOCTYPE html>
                 <html lang="en">
                 <?php
 include("../connection/connect.php");
@@ -100,9 +99,14 @@ if(isset($_POST['submit']))
 }
 
 
+
+
+
+
+
+
 ?>
  
-
                 <head>
                     <meta charset="utf-8">
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -115,7 +119,8 @@ if(isset($_POST['submit']))
                     <link href="css/helper.css" rel="stylesheet">
                     <link href="css/style.css" rel="stylesheet">
                 </head>
-     
+                 
+
                 <body class="fix-header">
                     <div class="preloader">
                         <svg class="circular" viewBox="25 25 50 50">
@@ -139,7 +144,8 @@ if(isset($_POST['submit']))
                                         <li class="nav-item dropdown mega-dropdown"> <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-th-large"></i></a>
                                             <div class="dropdown-menu animated zoomIn">
                                                 <ul class="mega-dropdown-menu row">
-                 
+                                                  
+
 
                                                     <li class="col-lg-3  m-b-30">
                                                         <h4 class="m-b-20">CONTACT US</h4>
@@ -195,7 +201,7 @@ if(isset($_POST['submit']))
                                         </li>
 
                                     </ul>
-                          
+                                   
 
                                     <ul class="navbar-nav my-lg-0">
                                         <li class="nav-item dropdown">
@@ -210,7 +216,7 @@ if(isset($_POST['submit']))
                                 </div>
                             </nav>
                         </div>
-                       
+                        
 
                         <div class="left-sidebar">
 
@@ -247,13 +253,16 @@ if(isset($_POST['submit']))
                             </div>
 
                         </div>
-                      
-
                         
+
+
+                        <div class="page-wrapper">
+                            <div style="padding-top: 10px;">
+                        </div>
 
                             <div class="row page-titles">
                                 <div class="col-md-5 align-self-center">
-                                    <h3 class="text-primary">Dashboard</h3>
+                                    <h3 class="text-primary">Update</h3>
                                 </div>
                             </div>
 
@@ -313,6 +322,7 @@ if(isset($_POST['submit']))
 
                                                     </div>
                                                     
+
                                                     <div class="row">
                                                         <div class="col-md-6">
                                                             <div class="form-group">
@@ -328,8 +338,7 @@ if(isset($_POST['submit']))
                                                                 </select>
                                                             </div>
                                                         </div>
-                                                    
-
+                                                        
                                                         <div class="col-md-6">
                                                             <div class="form-group">
                                                                 <label class="control-label">Close Hours</label>
@@ -360,6 +369,7 @@ if(isset($_POST['submit']))
                                                             </div>
                                                         </div>
 
+                                                      
 
                                                         <div class="col-md-6">
                                                             <div class="form-group has-danger">
@@ -434,6 +444,6 @@ if(isset($_POST['submit']))
                     <script src="js/custom.min.js"></script>
 
                 </body>
-               
+                
 
                 </html>

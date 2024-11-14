@@ -1,5 +1,5 @@
 
-                <!DOCTYPE html>
+<!DOCTYPE html>
                 <html lang="en">
                 <?php
 include("../connection/connect.php");
@@ -20,6 +20,10 @@ if(isset($_POST['submit'] ))
 	{
 		
 	
+	
+	
+       
+	
 	$mql = "update res_category set c_name ='$_POST[c_name]' where c_id='$_GET[cat_upd]'";
 	mysqli_query($db, $mql);
 			$success = 	'<div class="alert alert-success alert-dismissible fade show">
@@ -36,6 +40,7 @@ if(isset($_POST['submit'] ))
 
                 <head>
                     
+
                     <meta charset="utf-8">
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
                     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -91,7 +96,7 @@ if(isset($_POST['submit'] ))
                                                     </li>
                                                     <li class="col-lg-3 col-xlg-3 m-b-30">
                                                         <h4 class="m-b-20">List style</h4>
-                                                    
+                                                        
 
                                                         <ul class="list-style-none">
                                                             <li><a href="javascript:void(0)"><i class="fa fa-check text-success"></i> This Is Another Link</a></li>
@@ -163,7 +168,7 @@ if(isset($_POST['submit'] ))
                                                                     <h5>This is title</h5> <span class="mail-desc">You can customize this template as you want</span> <span class="time">9:08 AM</span>
                                                                 </div>
                                                             </a>
-                                                 
+                                                            
 
                                                             <a href="#">
                                                                 <div class="btn btn-primary btn-circle m-r-10"><i class="ti-user"></i></div>
@@ -223,7 +228,7 @@ if(isset($_POST['submit'] ))
                                                         </div>
                                                     </li>
                                                     <li>
-                                                    
+                                                        
 
                                                         <a class="nav-link text-center" href="javascript:void(0);"> <strong>See all e-Mails</strong> <i class="fa fa-angle-right"></i> </a>
                                                     </li>
@@ -243,8 +248,7 @@ if(isset($_POST['submit'] ))
                                 </div>
                             </nav>
                         </div>
-                       
-
+                        
                         <div class="left-sidebar">
 
                             <div class="scroll-sidebar">
@@ -284,7 +288,7 @@ if(isset($_POST['submit'] ))
 
                         <div class="page-wrapper">
                             <div style="padding-top: 10px;">
-                                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> is the sole owner of this script. It is not suitable for personal use. And releasing it in demo version. Besides, it is being provided for free only from <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>. For any of your problems contact us on <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a> facebook group / page or message <a href="https://www.facebook.com/dev.mhrony">MH RONY</a> on facebook. Thanks for staying with <a href="https://www.youtube.com/@codecampbdofficial">Code Camp BD</a>.</marquee>
+                                
                             </div>
 
                             <div class="row page-titles">
@@ -300,11 +304,11 @@ if(isset($_POST['submit'] ))
 
                                 <div class="row">
 
-
-
+                                   
                                     <div class="container-fluid">
 
-                                      
+                                
+
                                         <?php  
 									        echo $error;
 									        echo $success; ?>
@@ -344,6 +348,9 @@ if(isset($_POST['submit'] ))
                                         </div>
 
                                     </div>
+
+
+
 
 
                                 </div>
